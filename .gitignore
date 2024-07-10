@@ -1,0 +1,10 @@
+.env
+
+api_responses.json
+
+/node_modules
+/parent_json
+/prompts_json
+/responses_json
+/final_responses
+/.idea

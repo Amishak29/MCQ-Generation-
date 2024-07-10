@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQs Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.5s ease;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar button {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .navbar button:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 18px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            width: 100%;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 0.5s forwards;
+            margin-top: 60px; /* Adjusted for the fixed navbar */
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+            position: relative; 
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            flex: 1 1 45%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        textarea, input[type="text"], input[type="number"], input[type="url"], select {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+
+        .generate-button {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .copy-button {
+            background-color: #008CBA;
+            color: white;
+        }
+
+        .excel-button {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .add-button {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .remove-button {
+            background-color: #f44336;
+            color: white;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            line-height: 18px;
+            cursor: pointer;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-size: 14px;
+        }
+
+        .landing-page {
+            text-align: center;
+            margin-top: 60px; /* Adjusted for the fixed navbar */
+        }
+
+        .landing-page button {
+            margin: 10px;
+            width: 200px;
+            background-color: #4CAF50;
+            color: white;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <button onclick="goBack()">Back to Home</button>
+    </div>
+
+    <div class="landing-page">
+        <h1>Welcome to MCQs Generator</h1>
+        <button onclick="navigateTo('content')">Question with Content</button>
+        <button onclick="navigateTo('topic')">Question with Topic</button>
+    </div>
+
+    <div class="container" id="mcq-form" style="display:none;">
+        <h1>MCQs Generator</h1>
+
+        <div id="form-container">
+            <form class="data-form">
+                <div class="remove-button" onclick="removeForm(this)">X</div>
+                <div class="form-group">
+                    <label for="context">Context:</label>
+                    <textarea name="context" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="number_of_questions">Number of Questions:</label>
+                    <input type="number" name="number_of_questions" required>
+                </div>
+                <div class="form-group">
+                    <label for="topic">Topic:</label>
+                    <input type="text" name="topic" required>
+                </div>
+                <div class="form-group">
+                    <label for="sub_topic">Sub-Topic:</label>
+                    <input type="text" name="sub_topic" required>
+                </div>
+                <div class="form-group">
+                    <label for="difficulty_level">Difficulty Level:</label>
+                    <select name="difficulty_level" required>
+                        <option value="EASY">EASY</option>
+                        <option value="MEDIUM">MEDIUM</option>
+                        <option value="HARD">HARD</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="resource_name">Resource Name:</label>
+                    <input type="text" name="resource_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="resource_url">Resource URL:</label>
+                    <input type="url" name="resource_url" required>
+                </div>
+            </form>
+        </div>
+
+        <button type="button" class="add-button" onclick="addForm()">Add More</button>
+        <button type="button" class="generate-button" onclick="submitForm()">Generate JSON</button>
+        <button type="button" class="copy-button" onclick="copyToClipboard()">Copy to Clipboard</button>
+        <button type="button" class="excel-button" onclick="convertToExcel()">Convert to Excel</button>
+
+        <h2>Generated JSON:</h2>
+        <pre id="output"></pre>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+    <script>
+        function navigateTo(page) {
+            document.querySelector('.landing-page').style.display = 'none';
+            if (page === 'content') {
+                document.getElementById('mcq-form').style.display = 'block';
+            } else {
+                alert('Question with Topic page is under construction');
+            }
+        }
+
+        function goBack() {
+            document.getElementById('mcq-form').style.display = 'none';
+            document.querySelector('.landing-page').style.display = 'block';
+        }
+
+        function addForm() {
+            const formContainer = document.getElementById('form-container');
+            const newForm = document.querySelector('.data-form').cloneNode(true);
+            newForm.querySelector('.remove-button').addEventListener('click', function () {
+                removeForm(this);
+            });
+            formContainer.appendChild(newForm);
+        }
+
+        function removeForm(button) {
+            const form = button.closest('form');
+            form.remove();
+        }
+
+        async function submitForm() {
+            const forms = document.querySelectorAll('.data-form');
+            const allFormData = [];
+
+            forms.forEach(form => {
+                const formData = new FormData(form);
+                const jsonData = {};
+                formData.forEach((value, key) => {
+                    jsonData[key] = value;
+                });
+                console.log(typeof(jsonData));
+                allFormData.push(jsonData);
+            });
+
+            const flattenedFormData = allFormData;
+
+            const response = await fetch('/generate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(flattenedFormData)
+            });
+
+            const result = await response.json();
+            const output = document.getElementById('output');
+            output.textContent = JSON.stringify(result, null, 1);
+        }
+
+        function copyToClipboard() {
+            const output = document.getElementById('output').textContent;
+            navigator.clipboard.writeText(output).then(() => {
+                alert('Copied to clipboard');
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+            });
+        }
+
+        function convertToExcel() {
+            const output = document.getElementById('output').textContent;
+            const jsonData = JSON.parse(output);
+
+            const worksheet = XLSX.utils.json_to_sheet(jsonData);
+            const workbook = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
+
+            XLSX.writeFile(workbook, 'MCQs.xlsx');
+        }
+    </script>
+</body>
+</html>
