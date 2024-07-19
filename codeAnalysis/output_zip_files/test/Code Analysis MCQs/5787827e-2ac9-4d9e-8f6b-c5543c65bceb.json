@@ -1,0 +1,4937 @@
+[
+  {
+    "question_key": 0,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code uses the exponentiation operator '**' to raise 5 to the power of 3, resulting in 125.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "b557ad0d-c9d2-4674-84b0-7f53b73325a8"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "b557ad0d-c9d2-4674-84b0-7f53b73325a8",
+        "wrong_answers": [
+          "Prints the number 15",
+          "Causes a runtime error",
+          "Prints the number 8"
+        ],
+        "output": [
+          "Prints the number 125"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 5\ny = 3\nprint(x ** y)",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 2,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code has a syntax error because the colon ':' is missing at the end of the for loop statement.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "43319cb8-8e5b-4b1e-b6f1-12682d389bd0"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "43319cb8-8e5b-4b1e-b6f1-12682d389bd0",
+        "wrong_answers": [
+          "Yes, it will compile without errors",
+          "No, the print function is used incorrectly",
+          "Yes, but it will throw a runtime exception"
+        ],
+        "output": [
+          "No, there is a syntax error with the for loop"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "for i in range(5)\n    print(i)",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 4,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Negative indexing in Python starts from the end of the string, so 'Python'[-1] is 'n'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "770f43b6-c559-48b4-96c5-b803b9c24d5e"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "770f43b6-c559-48b4-96c5-b803b9c24d5e",
+        "wrong_answers": [
+          "Prints the substring 'Pytho'",
+          "Causes an IndexError",
+          "Prints the entire string 'Python'"
+        ],
+        "output": [
+          "Prints the character 'n'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "print('Python'[-1])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 5,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The '//' operator in Python performs integer division, which discards the fractional part, resulting in 2.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "17f634d5-ffb3-452a-81fe-88609cd0dc84"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "17f634d5-ffb3-452a-81fe-88609cd0dc84",
+        "wrong_answers": [
+          "Prints the number 2.666",
+          "Prints the number 3",
+          "Causes a syntax error"
+        ],
+        "output": [
+          "Prints the number 2"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "print(8 // 3)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 6,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The break statement causes the function to exit the loop after printing the first even number, which is 4.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "bb27e2a2-d638-40a6-8ed2-2ec7377a1d18"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "bb27e2a2-d638-40a6-8ed2-2ec7377a1d18",
+        "wrong_answers": [
+          "The function will print all even numbers",
+          "The function will not print any numbers",
+          "The function will cause a runtime error"
+        ],
+        "output": [
+          "The function will print only the first even number"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def print_even(numbers):\n    for num in numbers:\n        if num % 2 == 0:\n            print(num)\n            break\n\nprint_even([1, 3, 5, 4, 6])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 7,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The lambda function is missing the assignment to a variable and the parentheses for the function call are misplaced.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "fe2d7251-20bf-48f2-a1b5-920dd1ebf96e"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "fe2d7251-20bf-48f2-a1b5-920dd1ebf96e",
+        "wrong_answers": [
+          "Yes, it will compile without errors",
+          "No, the arguments are not provided correctly",
+          "Yes, but it will throw a runtime exception"
+        ],
+        "output": [
+          "No, there is a syntax error with the lambda function"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "lambda x, y: x + y(3, 4)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 8,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code correctly accesses the values of keys 'a' and 'b' in the dictionary and adds them, resulting in 3.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "fc1a937e-c8b6-4cef-85f5-76e4f1e805b0"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "fc1a937e-c8b6-4cef-85f5-76e4f1e805b0",
+        "wrong_answers": [
+          "Prints the number 6",
+          "Causes a KeyError",
+          "Prints the string 'ab'"
+        ],
+        "output": [
+          "Prints the number 3"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "my_dict = {'a': 1, 'b': 2, 'c': 3}\nprint(my_dict['a'] + my_dict['b'])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 9,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The make_multiplier function returns a lambda function that multiplies its argument by x, so double(5) results in 10.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "2b7eb7e0-4373-497b-9901-c5ded08801df"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "2b7eb7e0-4373-497b-9901-c5ded08801df",
+        "wrong_answers": [
+          "Prints the number 5",
+          "Causes a TypeError",
+          "Prints 'lambda y: x * y'"
+        ],
+        "output": [
+          "Prints the number 10"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def make_multiplier(x):\n    return lambda y: x * y\n\ndouble = make_multiplier(2)\nprint(double(5))",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 11,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The for loop is missing a colon at the end of the statement.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "cb7a0f07-ee1e-4172-98fa-3a160085e8d2"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "cb7a0f07-ee1e-4172-98fa-3a160085e8d2",
+        "wrong_answers": [
+          "The range function is used incorrectly",
+          "The print statement is indented incorrectly",
+          "There is no error in the code"
+        ],
+        "output": [
+          "There is a syntax error with the for loop"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "for i in range(5)\n    print(i)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 12,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function 'my_func' does not take any arguments, but it's called with one argument, causing a runtime error.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "5651110d-f8e4-4f77-9d0e-9fbf3178f6c1"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "5651110d-f8e4-4f77-9d0e-9fbf3178f6c1",
+        "wrong_answers": [
+          "Yes, it will compile without errors",
+          "No, it will cause a syntax error",
+          "Yes, but it will print nothing"
+        ],
+        "output": [
+          "No, it will cause a runtime error"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def my_func():\n    return 'Hello World'\n\nprint(my_func(5))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 13,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The list comprehension doubles each element in the original list, resulting in [2, 4, 6, 8].",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "c8f80323-772f-428d-883a-c5b6034e09ab"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "c8f80323-772f-428d-883a-c5b6034e09ab",
+        "wrong_answers": [
+          "Prints [1, 2, 3, 4]",
+          "Causes a syntax error",
+          "Prints [0, 2, 4, 6]"
+        ],
+        "output": [
+          "Prints [2, 4, 6, 8]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "list = [1, 2, 3, 4]\nlist = [i * 2 for i in list]\nprint(list)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 14,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The add function concatenates two strings, resulting in 'HelloWorld'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "e9d36c68-5af3-4231-8c81-038d85a2df30"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "e9d36c68-5af3-4231-8c81-038d85a2df30",
+        "wrong_answers": [
+          "Prints 'Hello World'",
+          "Causes a type error",
+          "Prints 0"
+        ],
+        "output": [
+          "Prints 'HelloWorld'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def add(x, y):\n    return x + y\n\nresult = add('Hello', 'World')\nprint(result)",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 17,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The multiply function is called with two arguments, so the default value of y is overridden, resulting in 3 * 5 = 15.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "4bb3c783-97ea-4c5a-9327-14a9209e4ace"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "4bb3c783-97ea-4c5a-9327-14a9209e4ace",
+        "wrong_answers": [
+          "Prints 6",
+          "Causes a syntax error",
+          "Prints 5"
+        ],
+        "output": [
+          "Prints 15"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def multiply(x, y=2):\n    return x * y\n\nprint(multiply(3, 5))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 18,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Slicing the string 'Python' from index 1 to -1 (one before the last) results in 'ytho'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "9abc5535-8be1-4052-b942-29ec2b13e79b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "9abc5535-8be1-4052-b942-29ec2b13e79b",
+        "wrong_answers": [
+          "Prints 'Python'",
+          "Causes an IndexError",
+          "Prints 'Ptho'"
+        ],
+        "output": [
+          "Prints 'ytho'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 'Python'\nprint(x[1:-1])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 19,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The if statement is missing a colon at the end.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "0ba8f990-1281-437c-85e5-c3919604f3e5"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "0ba8f990-1281-437c-85e5-c3919604f3e5",
+        "wrong_answers": [
+          "The variable x is not defined",
+          "There is no error in the code",
+          "The print function is missing parentheses"
+        ],
+        "output": [
+          "The if statement is used incorrectly"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 10\nif x == 10:\n    print('x is 10')\n",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 20,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code will compile, but accessing index 3, which is out of range for the list x, will cause an IndexError at runtime.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "553040a3-87b4-4e68-8f2b-8a93adebe876"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "553040a3-87b4-4e68-8f2b-8a93adebe876",
+        "wrong_answers": [
+          "Yes, it will compile without errors",
+          "No, it will cause a syntax error",
+          "Yes, but it will print None"
+        ],
+        "output": [
+          "No, it will cause a runtime error"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = [0, 1, 2]\nprint(x[3])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 21,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code concatenates 'Hello', a space, and 'World' with the '+' operator, resulting in 'Hello World'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "5b4f3881-6e10-49af-9414-04eaafca3f64"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "5b4f3881-6e10-49af-9414-04eaafca3f64",
+        "wrong_answers": [
+          "Prints 'HelloWorld'",
+          "Causes a syntax error",
+          "Prints 'Helloworld'"
+        ],
+        "output": [
+          "Prints 'Hello World'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 'Hello'\ny = 'World'\nprint(x + ' ' + y)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 22,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The integer x is converted to a string and concatenated with the string y, resulting in '1020'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "32063d1c-5452-4dd1-88ee-dad8cd717387"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "32063d1c-5452-4dd1-88ee-dad8cd717387",
+        "wrong_answers": [
+          "Prints '30'",
+          "Causes a type error",
+          "Prints 'x20'"
+        ],
+        "output": [
+          "Prints '1020'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 10\ny = '20'\nprint(str(x) + y)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 23,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Slicing with the start index greater than the end index results in an empty string.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "995c5f5c-e099-4908-b4ef-abdee65b88cb"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "995c5f5c-e099-4908-b4ef-abdee65b88cb",
+        "wrong_answers": [
+          "The string cannot be sliced",
+          "There is no error in the code",
+          "The print function is missing parentheses"
+        ],
+        "output": [
+          "The slice indices are in the wrong order"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "print('Hello World'[-1:1])",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 26,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The find method returns the lowest index of the substring if it is found, which is 1 for 'e' in 'Hello'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "34e0461c-1bfe-450b-8265-0a5c3bb8551d"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "34e0461c-1bfe-450b-8265-0a5c3bb8551d",
+        "wrong_answers": [
+          "Prints 0",
+          "Prints -1",
+          "Causes a ValueError"
+        ],
+        "output": [
+          "Prints 1"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 'Hello'\nprint(x.find('e'))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 28,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The get method of a dictionary safely returns a default value if the key is not found, avoiding a KeyError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "13b0aed0-ba49-4e9c-98ef-9cdbda94b565"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "13b0aed0-ba49-4e9c-98ef-9cdbda94b565",
+        "wrong_answers": [
+          "No, it will cause a runtime error",
+          "No, it will cause a syntax error",
+          "Yes, but it will print None"
+        ],
+        "output": [
+          "Yes, it will compile without errors"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = {'a': 1, 'b': 2}\nprint(x.get('c', 'Key not found'))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 29,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The default list argument is mutable and shared between calls, so the second call to func() returns [1, 1].",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OPERATORS_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "3b966291-0928-40f3-92b3-b91fab40a119"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "3b966291-0928-40f3-92b3-b91fab40a119",
+        "wrong_answers": [
+          "Prints [1] twice",
+          "Causes a syntax error",
+          "Prints [1, 1] twice"
+        ],
+        "output": [
+          "Prints [1] and then [1, 1]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def func(x=[]):\n    x.append(1)\n    return x\n\nprint(func())\nprint(func())",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 31,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The list passed to the function contains a string '3', which cannot be added to the integer total. This will raise a TypeError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "c8b87913-257a-455d-9c06-4b1565c94b2a"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "c8b87913-257a-455d-9c06-4b1565c94b2a",
+        "wrong_answers": [
+          "The function does not return a value",
+          "The for loop has incorrect syntax",
+          "There is no error in the code"
+        ],
+        "output": [
+          "The list contains a string which will cause a TypeError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def calculate_sum(lst):\n    total = 0\n    for num in lst:\n        total += num\n    return total\n\nresult = calculate_sum([1, 2, '3', 4])",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 33,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The multiply function works for both numbers and strings. It will print '6' for the first call and 'aaa' for the second call, as strings can be multiplied by integers in Python.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "c39632e2-7e09-48a5-b8fe-58f513e61fce"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "c39632e2-7e09-48a5-b8fe-58f513e61fce",
+        "wrong_answers": [
+          "Prints '6' and raises a TypeError",
+          "Prints '6' and 'a3'",
+          "Causes a compilation error"
+        ],
+        "output": [
+          "Prints '6' and 'aaa'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def multiply(a, b):\n    return a * b\n\nprint(multiply(2, 3))\nprint(multiply('a', 3))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 34,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code uses a list comprehension to create a new list where each number in the original list is doubled.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "dac4aeb1-c131-4a9d-9ca5-ec09ede5c90b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "dac4aeb1-c131-4a9d-9ca5-ec09ede5c90b",
+        "wrong_answers": [
+          "Prints '[1, 2, 3, 4, 5]'",
+          "Causes a SyntaxError",
+          "Prints 'None'"
+        ],
+        "output": [
+          "Prints '[2, 4, 6, 8, 10]'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "numbers = [1, 2, 3, 4, 5]\ndoubled = [n * 2 for n in numbers]\nprint(doubled)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 35,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function foo is called with default arguments for b and c. When called with two arguments, it overrides the default value of b but keeps the default value of c.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "b6b3a1cc-67b6-4618-aab7-0d7aff249cd7"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "b6b3a1cc-67b6-4618-aab7-0d7aff249cd7",
+        "wrong_answers": [
+          "Prints '1 4 5'",
+          "Prints '1 2' and raises a TypeError",
+          "Causes a SyntaxError"
+        ],
+        "output": [
+          "Prints '1 2 5'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def foo(a, b=4, c=5):\n    print(a, b, c)\n\nfoo(1, 2)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 36,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Using a list as a default argument in a function is a common Python pitfall. The list is shared between all calls to the function, which can lead to unexpected behavior.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "6447b7f9-292e-4bd1-9402-de4b9345a78f"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "6447b7f9-292e-4bd1-9402-de4b9345a78f",
+        "wrong_answers": [
+          "The append method does not exist for lists",
+          "The function does not return the list",
+          "There is no error in the code"
+        ],
+        "output": [
+          "The function should not have a list as a default argument"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def append_to(element, to=[]):\n    to.append(element)\n    return to\n\nmy_list = append_to(12)\nprint(my_list)\nmy_other_list = append_to(42)\nprint(my_other_list)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 37,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code attempts to divide by zero, which raises a ZeroDivisionError. The except block catches the error and prints 'Error', and the finally block executes regardless, printing 'Finally'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "75ebe256-7c59-4e64-8e2d-5796306bcbc8"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "75ebe256-7c59-4e64-8e2d-5796306bcbc8",
+        "wrong_answers": [
+          "Prints '1' and 'Finally'",
+          "Prints 'Error'",
+          "Causes an unhandled exception"
+        ],
+        "output": [
+          "Prints 'Error' and 'Finally'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "try:\n    print(1 / 0)\nexcept ZeroDivisionError:\n    print('Error')\nfinally:\n    print('Finally')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 38,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The math.sqrt function cannot handle negative numbers and will raise a ValueError when trying to calculate the square root of -1.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "0bbd93e0-285d-4a1d-86cd-e6a1789c9b8c"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "0bbd93e0-285d-4a1d-86cd-e6a1789c9b8c",
+        "wrong_answers": [
+          "Yes, it will compile and print 'nan'",
+          "No, it will cause an ImportError",
+          "Yes, but it will print '0'"
+        ],
+        "output": [
+          "No, it will raise a ValueError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "import math\n\nprint(math.sqrt(-1))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 39,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The == operator checks for value equality and returns True since 2 and 2.0 are equal in value. The is operator checks for object identity, and since an integer and a float are different objects, it returns False.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "6461c963-0497-4f96-b6ec-bfcfd867f1d3"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "6461c963-0497-4f96-b6ec-bfcfd867f1d3",
+        "wrong_answers": [
+          "Prints 'True' and 'True'",
+          "Prints 'False' and 'True'",
+          "Causes a TypeError"
+        ],
+        "output": [
+          "Prints 'True' and 'False'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "print(2 == 2.0)\nprint(2 is 2.0)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 40,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code adds two integers, 5 and 3, resulting in 8.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "9a52b3c1-4917-4391-a7bc-cafcb6f997e4"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "9a52b3c1-4917-4391-a7bc-cafcb6f997e4",
+        "wrong_answers": [
+          "Prints '53'",
+          "Prints 15",
+          "Raises a TypeError"
+        ],
+        "output": [
+          "Prints 8"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 5\ny = 3\nprint(x + y)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 41,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code is correct and will print numbers from 0 to 4 followed by 'Done'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "4202a0f9-0c3c-4ed2-8ab7-99401a9640b9"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "4202a0f9-0c3c-4ed2-8ab7-99401a9640b9",
+        "wrong_answers": [
+          "The loop will not run",
+          "The indentation is incorrect",
+          "There is a syntax error"
+        ],
+        "output": [
+          "The code is correct"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "for i in range(5):\n    print(i)\nprint('Done')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 43,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code defines a decorator that adds a prefix to the return value of the function it decorates. It will print 'Hello, Alice'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "41b0b208-f37b-40f8-86af-45c4bfce2c6e"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "41b0b208-f37b-40f8-86af-45c4bfce2c6e",
+        "wrong_answers": [
+          "Prints 'Alice'",
+          "Raises a TypeError",
+          "None of the above"
+        ],
+        "output": [
+          "Prints 'Hello, Alice'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def add_prefix(prefix):\n    def decorator(func):\n        def wrapper(*args):\n            return prefix + func(*args)\n        return wrapper\n    return decorator\n\n@add_prefix('Hello, ')\ndef greet(name):\n    return name\n\nprint(greet('Alice'))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 44,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Exponentiation is right-associative in Python, so 3 ** 2 is calculated first, resulting in 9, and then 2 ** 9 equals 512.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "0f07aa52-2862-4153-a606-437cdad55b98"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "0f07aa52-2862-4153-a606-437cdad55b98",
+        "wrong_answers": [
+          "Prints 64",
+          "Prints 256",
+          "Raises a ValueError"
+        ],
+        "output": [
+          "Prints 512"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "print(2 ** 3 ** 2)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 45,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The pop method removes the item at the given index; here, 'banana' is removed, leaving ['apple', 'cherry'].",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "1767bc5d-5752-47e0-be2b-5b295e758547"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "1767bc5d-5752-47e0-be2b-5b295e758547",
+        "wrong_answers": [
+          "Prints ['apple', 'banana']",
+          "Prints ['banana', 'cherry']",
+          "Raises an IndexError"
+        ],
+        "output": [
+          "Prints ['apple', 'cherry']"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = ['apple', 'banana', 'cherry']\nx.pop(1)\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 46,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Python requires proper indentation for blocks of code. The print statement should be indented.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "2e9856a3-a8b7-44f8-a280-a919fad9f971"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "2e9856a3-a8b7-44f8-a280-a919fad9f971",
+        "wrong_answers": [
+          "The comparison operator is incorrect",
+          "The variable x is not defined",
+          "The code is correct"
+        ],
+        "output": [
+          "The indentation is incorrect"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 10\nif x == 10:\nprint('x is 10')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 47,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code will compile. 'y' is a reference to the same list as 'x', so appending to 'y' will affect 'x'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "c0402497-ef0c-4bf1-8d9b-03f09c820d7a"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "c0402497-ef0c-4bf1-8d9b-03f09c820d7a",
+        "wrong_answers": [
+          "No, it will raise a TypeError",
+          "No, it will raise a SyntaxError",
+          "No, it will raise an AttributeError"
+        ],
+        "output": [
+          "Yes, it will compile"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 48,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Strings are immutable in Python, so the original string 'x' is not changed when passed to the function.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "88225228-ab43-4f72-baf5-a41e7ee75c4a"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "88225228-ab43-4f72-baf5-a41e7ee75c4a",
+        "wrong_answers": [
+          "Prints 'Hello World' followed by 'Hello World'",
+          "Raises a TypeError",
+          "None of the above"
+        ],
+        "output": [
+          "Prints 'Hello World' followed by 'Hello'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 'Hello'\ndef change_string(str):\n    str += ' World'\n    return str\n\nprint(change_string(x))\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 49,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The lambda function takes two arguments and returns their product, which is 30 in this case.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_OOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "a23a472d-231f-4ee4-b144-853af23d9a16"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "a23a472d-231f-4ee4-b144-853af23d9a16",
+        "wrong_answers": [
+          "Prints 11",
+          "Prints '5 * 6'",
+          "Raises a SyntaxError"
+        ],
+        "output": [
+          "Prints 30"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = lambda a, b: a * b\nprint(x(5, 6))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 53,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The list 'to' is initialized once and retains its value between function calls, so the second call appends to the same list.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_IF_ELSE_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "eddfaa00-c376-4ad3-9263-116352067c6b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "eddfaa00-c376-4ad3-9263-116352067c6b",
+        "wrong_answers": [
+          "Prints [12] followed by [42]",
+          "Causes a runtime error",
+          "Prints [42] followed by [42]"
+        ],
+        "output": [
+          "Prints [12] followed by [12, 42]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def append_to(element, to=[]):\n    to.append(element)\n    return to\n\nmy_list = append_to(12)\nprint(my_list)\nmy_other_list = append_to(42)\nprint(my_other_list)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 54,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Indexing with -1 accesses the last element of the string, which is 'n'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_IF_ELSE_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "a2e0f2d0-b948-4c09-bf09-65fd545c796f"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "a2e0f2d0-b948-4c09-bf09-65fd545c796f",
+        "wrong_answers": [
+          "Prints the substring 'Pytho'",
+          "Causes an IndexError",
+          "Prints the entire string 'Python'"
+        ],
+        "output": [
+          "Prints the character 'n'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "print('Python'[-1])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 55,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The for loop with range(3) prints numbers 0 to 2, and the else block executes after the loop, printing 'Done'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_IF_ELSE_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "97064a77-92bf-4e84-a0df-63e78ab3ee6f"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "97064a77-92bf-4e84-a0df-63e78ab3ee6f",
+        "wrong_answers": [
+          "Prints numbers 1 to 3 followed by 'Done'",
+          "Causes a syntax error",
+          "Prints 'Done' only"
+        ],
+        "output": [
+          "Prints numbers 0 to 2 followed by 'Done'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "for i in range(3):\n    print(i)\nelse:\n    print('Done')",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 57,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function 'multiply' expects two arguments, but three are given, causing a TypeError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_IF_ELSE_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "8bb04e85-4af4-417c-873a-225596f6f2d5"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "8bb04e85-4af4-417c-873a-225596f6f2d5",
+        "wrong_answers": [
+          "Prints the number 24",
+          "Prints the number 6",
+          "Prints 'None'"
+        ],
+        "output": [
+          "Causes a TypeError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def multiply(a, b):\n    return a * b\n\nprint(multiply(2, 3, 4))",
+        "default_code": true
+      }
+    ]
+  },
+
+
+  {
+    "question_key": 59,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code creates a lambda function that multiplies its input by 3 and then applies it to the number 9, resulting in 27.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_IF_ELSE_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "da32f296-73b8-41f0-b720-cbb4899d3ded"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "da32f296-73b8-41f0-b720-cbb4899d3ded",
+        "wrong_answers": [
+          "Prints the number 12",
+          "Causes a NameError",
+          "Prints 'None'"
+        ],
+        "output": [
+          "Prints the number 27"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def make_multiplier_of(n):\n    return lambda x: x * n\n\ntimes3 = make_multiplier_of(3)\nprint(times3(9))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 63,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function 'multiply' takes two arguments, with the second one having a default value of 2. When called with arguments (3, 5), it multiplies 3 by 5, resulting in 15.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_IF_ELSE_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "6e1cefa4-a162-457a-b2d7-9a029afac209"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "6e1cefa4-a162-457a-b2d7-9a029afac209",
+        "wrong_answers": [
+          "Prints 6",
+          "Prints 5",
+          "Raises a TypeError"
+        ],
+        "output": [
+          "Prints 15"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def multiply(x, y=2):\n  return x * y\n\nprint(multiply(3, 5))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 64,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The print_dog function expects an instance of the Dog class, but a string 'Rex' is passed instead. This will raise an AttributeError because strings do not have a 'name' attribute.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong in the provided code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_IF_ELSE_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "214d469f-b7f7-41a5-8c67-56a6b65ceff1"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "214d469f-b7f7-41a5-8c67-56a6b65ceff1",
+        "wrong_answers": [
+          "The class Dog is not defined correctly",
+          "The print_dog function is not a method of the Dog class",
+          "There is no error in the code"
+        ],
+        "output": [
+          "The print_dog function should take a Dog instance, not a string"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "class Dog:\n  def __init__(self, name):\n    self.name = name\n\ndef print_dog(dog):\n  print(dog.name)\n\nmy_dog = Dog('Rex')\nprint_dog('Rex')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 65,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The pop method removes the item at the specified index from the list. Here, x.pop(1) removes 'banana' from the list, so the output will be ['apple', 'cherry'].",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_IF_ELSE_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "d06f606c-5000-4a86-aa51-3a13cf551be7"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "d06f606c-5000-4a86-aa51-3a13cf551be7",
+        "wrong_answers": [
+          "Prints ['apple', 'banana']",
+          "Prints ['banana', 'cherry']",
+          "Raises an IndexError"
+        ],
+        "output": [
+          "Prints ['apple', 'cherry']"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = ['apple', 'banana', 'cherry']\nx.pop(1)\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 67,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The if statement uses a single equals sign (=), which is an assignment operator, instead of a double equals sign (==), which is a comparison operator.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong in the provided code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_IF_ELSE_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "0fc2e1f2-bf3c-4edc-a4c3-475a1fd3fd45"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "0fc2e1f2-bf3c-4edc-a4c3-475a1fd3fd45",
+        "wrong_answers": [
+          "The function should not have an else statement",
+          "The modulus operator is used incorrectly",
+          "There is no error in the code"
+        ],
+        "output": [
+          "The if statement has an assignment instead of a comparison"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def check_even(number):\n  if number % 2 = 0:\n    return True\n  else:\n    return False",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 76,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The __str__ method should return a string, but 'self.value' is an integer. Concatenating a string with an integer will raise a TypeError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "607e4794-13a9-4157-b614-6516cb659ee1"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "607e4794-13a9-4157-b614-6516cb659ee1",
+        "wrong_answers": [
+          "The __init__ method is missing the self parameter",
+          "The class is missing a method",
+          "There is no error in the code"
+        ],
+        "output": [
+          "The __str__ method should return a string, but it's returning an integer"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "class MyClass:\n    def __init__(self, value):\n        self.value = value\n\n    def __str__(self):\n        return 'Value is: ' + self.value\n\nobj = MyClass(10)\nprint(obj)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 77,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function multiply is defined to take two arguments, but it is called with three arguments, which will raise a TypeError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "0ead9862-5dee-4893-8d52-7d1c172d38af"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "0ead9862-5dee-4893-8d52-7d1c172d38af",
+        "wrong_answers": [
+          "Prints the number 24",
+          "Prints the number 6",
+          "Prints '2, 3, 4'"
+        ],
+        "output": [
+          "Causes a TypeError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def multiply(a, b):\n    return a * b\n\nprint(multiply(2, 3, 4))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 78,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code is correctly handling the ZeroDivisionError with a try-except block, so it will compile and run without errors.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "de22dcdb-c9c2-44bd-852a-c78b16f23258"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "de22dcdb-c9c2-44bd-852a-c78b16f23258",
+        "wrong_answers": [
+          "No, it will raise a ZeroDivisionError",
+          "No, it will raise a SyntaxError",
+          "No, it will raise a NameError"
+        ],
+        "output": [
+          "Yes, it will compile and run without errors"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')\nfinally:\n    print('End of calculation')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 79,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The default list is shared between calls to the function, so the second call appends to the same list as the first call.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "1fd9c21d-30cc-4406-b604-9f30501e6e05"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "1fd9c21d-30cc-4406-b604-9f30501e6e05",
+        "wrong_answers": [
+          "Prints [1] followed by [2]",
+          "Causes a runtime error",
+          "Prints [2] followed by [1, 2]"
+        ],
+        "output": [
+          "Prints [1] followed by [1, 2]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def foo(a, b=[]):\n    b.append(a)\n    return b\n\nprint(foo(1))\nprint(foo(2))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 80,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The nonlocal keyword in the inner function allows it to modify the x variable in the outer function's scope. The global x remains unchanged.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "2a2d2b4c-3fb0-4cd7-8695-c036035ba5c2"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "2a2d2b4c-3fb0-4cd7-8695-c036035ba5c2",
+        "wrong_answers": [
+          "Prints 'outer local' followed by 'global'",
+          "Causes a NameError",
+          "Prints 'inner local' followed by 'inner local'"
+        ],
+        "output": [
+          "Prints 'inner local' followed by 'global'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 'global'\n\ndef outer():\n    x = 'outer local'\n\n    def inner():\n        nonlocal x\n        x = 'inner local'\n    inner()\n    return x\n\nprint(outer())\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 81,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Keyword arguments should not be enclosed in quotes. The correct syntax is print_values(one=1, two=2).",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_MEIDUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "515e106c-d1d2-4ed9-bdc0-665d7e5e8e1b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "515e106c-d1d2-4ed9-bdc0-665d7e5e8e1b",
+        "wrong_answers": [
+          "The function does not handle keyword arguments correctly",
+          "The print statement is using an invalid format string",
+          "There is no error in the code"
+        ],
+        "output": [
+          "Keyword arguments should not be enclosed in quotes"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def print_values(**kwargs):\n    for key, value in kwargs.items():\n        print(f'{key}: {value}')\n\nprint_values('one'=1, 'two'=2)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 82,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The Cat class overrides the speak method of the Dog class, so calling speak on a Cat instance will return 'Meow!'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "4d95f4b1-bd13-4fb0-8203-f5982d44041d"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "4d95f4b1-bd13-4fb0-8203-f5982d44041d",
+        "wrong_answers": [
+          "Prints 'Woof!'",
+          "Causes a TypeError",
+          "Prints 'Whiskers'"
+        ],
+        "output": [
+          "Prints 'Meow!'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "class Dog:\n    def __init__(self, name):\n        self.name = name\n\n    def speak(self):\n        return 'Woof!'\n\nclass Cat(Dog):\n    def speak(self):\n        return 'Meow!'\n\nanimal = Cat('Whiskers')\nprint(animal.speak())",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 83,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Dividing by zero is not allowed in Python and will raise a ZeroDivisionError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "ef08f6e8-6d4d-440f-8341-c740572904a3"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "ef08f6e8-6d4d-440f-8341-c740572904a3",
+        "wrong_answers": [
+          "Yes, it will compile and run without errors",
+          "No, it will raise a SyntaxError",
+          "No, it will raise a NameError"
+        ],
+        "output": [
+          "No, it will raise a ZeroDivisionError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 10\ny = 0\nz = x / y",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 84,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The make_multiplier_of function returns a lambda function that multiplies its input by n. double(5) will therefore return 5 * 2 = 10.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "90a99010-f5d3-43e5-85d1-8a58f861fc5c"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "90a99010-f5d3-43e5-85d1-8a58f861fc5c",
+        "wrong_answers": [
+          "Prints the number 2",
+          "Prints the number 5",
+          "Causes a TypeError"
+        ],
+        "output": [
+          "Prints the number 10"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def make_multiplier_of(n):\n    return lambda x: x * n\n\ndouble = make_multiplier_of(2)\nprint(double(5))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 85,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The list comprehension creates a new list of squares of the even numbers from the original list, resulting in [4, 16].",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "46416953-95de-46b8-b26f-a563ac274b84"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "46416953-95de-46b8-b26f-a563ac274b84",
+        "wrong_answers": [
+          "Prints [1, 4, 9, 16]",
+          "Causes a SyntaxError",
+          "Prints [1, 9]"
+        ],
+        "output": [
+          "Prints [4, 16]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "numbers = [1, 2, 3, 4]\nsquares = [n**2 for n in numbers if n%2 == 0]\nprint(squares)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 86,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The add function is defined to take two arguments, but it is called with only one argument, which will raise a TypeError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "6b293169-ba69-4eba-a609-9b15707e9a48"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "6b293169-ba69-4eba-a609-9b15707e9a48",
+        "wrong_answers": [
+          "The function should not return a value",
+          "The print statement is incorrect",
+          "There is no error in the code"
+        ],
+        "output": [
+          "The function requires two arguments, but only one is provided"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def add(a, b):\n    return a + b\n\nprint(add(1))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 87,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The inner_func has access to the variable 'message' from the enclosing function, so when my_func() is called, it prints 'Hi'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "4b9854cd-8c27-4344-bbca-9dca3d8bd614"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "4b9854cd-8c27-4344-bbca-9dca3d8bd614",
+        "wrong_answers": [
+          "Prints 'message'",
+          "Causes a NameError",
+          "Prints nothing"
+        ],
+        "output": [
+          "Prints 'Hi'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def outer_func():\n    message = 'Hi'\n\n    def inner_func():\n        print(message)\n\n    return inner_func\n\nmy_func = outer_func()\nmy_func()",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 88,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The assert statement checks if a condition is True. If not, it raises an AssertionError with the given message.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "30cf7979-7fee-40f8-915b-9a9b6b412a8e"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "30cf7979-7fee-40f8-915b-9a9b6b412a8e",
+        "wrong_answers": [
+          "Yes, it will compile and run without errors",
+          "No, it will raise a ValueError",
+          "No, it will raise a SyntaxError"
+        ],
+        "output": [
+          "No, it will raise an AssertionError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 10\nassert x > 10, 'x is not greater than 10'",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 90,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function 'calculate_sum' expects two arguments, but only one was provided when called.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "73b0210e-d3e9-48e8-9eb5-c48c8018174d"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "73b0210e-d3e9-48e8-9eb5-c48c8018174d",
+        "wrong_answers": [
+          "The function does not return a value",
+          "The variables a and b are not defined",
+          "There is a syntax error in the function definition"
+        ],
+        "output": [
+          "The function is missing a parameter when called"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def calculate_sum(a, b):\n    return a + b\n\nresult = calculate_sum(10)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 93,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The 'append' method adds an element to the end of the list, resulting in [1, 2, 3, 4, 5].",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "2baca990-4ad5-4d3b-835d-7df8e71b4d45"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "2baca990-4ad5-4d3b-835d-7df8e71b4d45",
+        "wrong_answers": [
+          "5",
+          "[5, 1, 2, 3, 4]",
+          "None of the above"
+        ],
+        "output": [
+          "[1, 2, 3, 4, 5]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "list = [1, 2, 3, 4]\nlist.append(5)\nprint(list)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 94,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "A colon is required at the end of the 'if' statement before the indented block starts.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "fbe4d4f3-71f5-4544-8d0a-16d9a38e995d"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "fbe4d4f3-71f5-4544-8d0a-16d9a38e995d",
+        "wrong_answers": [
+          "The variable x is not defined",
+          "The print statement is not indented",
+          "There is no error in the code"
+        ],
+        "output": [
+          "There is a missing colon after the if statement"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "if x < 10\nprint('Less than 10')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 95,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The 'split' method splits the string at the comma, resulting in a list with two elements: 'Hello' and ' World!'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "ca982984-eca8-4c3e-84c8-8676bbef977c"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "ca982984-eca8-4c3e-84c8-8676bbef977c",
+        "wrong_answers": [
+          "['Hello, World!']",
+          "Hello, World!",
+          "['Hello', 'World!']"
+        ],
+        "output": [
+          "['Hello', ' World!']"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "print('Hello, World!'.split(','))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 97,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Slicing the string from index 1 to -1 (one before the last) results in 'ytho'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "691aea25-de93-4242-9c1b-f99ee2ebfd1b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "691aea25-de93-4242-9c1b-f99ee2ebfd1b",
+        "wrong_answers": [
+          "'ython'",
+          "'pytho'",
+          "An IndexError is raised"
+        ],
+        "output": [
+          "'ytho'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 'python'\nprint(x[1:-1])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 98,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The 'and' operator returns True if both operands are True, otherwise it returns False. Here, x is True and y is False, so the result is False.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "17dd2431-1a67-4721-8266-90e8e4091889"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "17dd2431-1a67-4721-8266-90e8e4091889",
+        "wrong_answers": [
+          "True",
+          "None",
+          "An error occurs"
+        ],
+        "output": [
+          "False"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = True\ny = False\nprint(x and y)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 99,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Trying to remove an element that is not in the list will raise a ValueError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "e80a68f9-6d62-4f3b-a97f-ca384869293b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "e80a68f9-6d62-4f3b-a97f-ca384869293b",
+        "wrong_answers": [
+          "The remove method is not used correctly",
+          "There is a syntax error",
+          "There is no error in the code"
+        ],
+        "output": [
+          "The list x does not contain the element 4"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = [1, 2, 3]\nx.remove(4)\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 100,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The integer x is converted to a string and concatenated with the string y, resulting in '1020'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "8f9e3fac-b687-409d-b817-cb4cf6951c77"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "8f9e3fac-b687-409d-b817-cb4cf6951c77",
+        "wrong_answers": [
+          "1020",
+          "'30'",
+          "An error occurs"
+        ],
+        "output": [
+          "'1020'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 10\ny = '20'\nprint(str(x) + y)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 101,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Trying to access a key that does not exist in the dictionary will raise a KeyError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile true or false?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "530ba2af-bce1-45a5-8ac6-342d837973ce"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "530ba2af-bce1-45a5-8ac6-342d837973ce",
+        "wrong_answers": [
+          "True",
+          "False, it will cause an IndexError",
+          "False, it will cause a TypeError"
+        ],
+        "output": [
+          "False, it will cause a KeyError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = {'a': 1, 'b': 2}\nprint(x['c'])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 102,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The conditional expression evaluates to 'x <= y' since x is not greater than y.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "b58fb49c-6827-4af7-83be-678e873d8f64"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "b58fb49c-6827-4af7-83be-678e873d8f64",
+        "wrong_answers": [
+          "'x > y'",
+          "'x == y'",
+          "An error occurs"
+        ],
+        "output": [
+          "'x <= y'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 5\ny = 10\nprint('x > y' if x > y else 'x <= y')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 103,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Multiplying a list by 2 duplicates its elements, resulting in [1, 2, 3, 1, 2, 3].",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "ab2b4d7d-034d-43b0-92c3-de5aece99a8d"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "ab2b4d7d-034d-43b0-92c3-de5aece99a8d",
+        "wrong_answers": [
+          "[2, 4, 6]",
+          "[1, 2, 3, 2]",
+          "An error occurs"
+        ],
+        "output": [
+          "[1, 2, 3, 1, 2, 3]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = [1, 2, 3]\nprint(x * 2)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 104,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Tuples are immutable in Python, which means their elements cannot be changed after creation.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "7c35e5b5-abe9-49b2-b616-efbd225a38a2"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "7c35e5b5-abe9-49b2-b616-efbd225a38a2",
+        "wrong_answers": [
+          "The syntax for modifying a tuple is incorrect",
+          "There is no error in the code",
+          "The print statement is not called correctly"
+        ],
+        "output": [
+          "Tuples are immutable, so the assignment will fail"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = (1, 2, 3)\nx[1] = 4\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 105,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The strings are concatenated with a space between them, resulting in 'Hello World'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "7ddb0ca0-81d1-429d-8ba0-24a8b6c99e21"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "7ddb0ca0-81d1-429d-8ba0-24a8b6c99e21",
+        "wrong_answers": [
+          "'HelloWorld'",
+          "'Hello + World'",
+          "An error occurs"
+        ],
+        "output": [
+          "'Hello World'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 'Hello'\ny = 'World'\nprint(x + ' ' + y)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 106,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code will compile and run, catching the ZeroDivisionError and executing the except block.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile true or false?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "14fa1e2b-b692-422e-a86e-0df940079ffa"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "14fa1e2b-b692-422e-a86e-0df940079ffa",
+        "wrong_answers": [
+          "False, it will cause a ZeroDivisionError",
+          "False, it will cause a SyntaxError",
+          "False, it will cause a NameError"
+        ],
+        "output": [
+          "True"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')\nfinally:\n    print('End of try-except block')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 107,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The 'global' keyword allows the function to modify the global variable x, changing its value to 'local'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "57fcd0ca-5583-4f42-a00b-b4ebe80b9736"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "57fcd0ca-5583-4f42-a00b-b4ebe80b9736",
+        "wrong_answers": [
+          "'global'",
+          "An error occurs",
+          "None of the above"
+        ],
+        "output": [
+          "'local'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 'global'\ndef myfunc():\n    global x\n    x = 'local'\nmyfunc()\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 108,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Negative indices count from the end of the list, so x[-1] refers to the last element, 'cherry'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_FILES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "231c8082-bbaa-46a2-ab9f-24becf2bc1a7"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "231c8082-bbaa-46a2-ab9f-24becf2bc1a7",
+        "wrong_answers": [
+          "'apple'",
+          "'banana'",
+          "An error occurs"
+        ],
+        "output": [
+          "'cherry'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = ['apple', 'banana', 'cherry']\nprint(x[-1])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 112,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The 'add_prefix' function is a decorator that adds a prefix to the return value of the function it decorates. In this case, it adds 'Super' to 'man'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "e450512c-e1b1-4fac-a358-9bd9311debe3"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "e450512c-e1b1-4fac-a358-9bd9311debe3",
+        "wrong_answers": [
+          "Prints 'man'",
+          "Causes a syntax error",
+          "Prints 'Super man'"
+        ],
+        "output": [
+          "Prints 'Superman'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def add_prefix(prefix):\n    def decorator(func):\n        def wrapper(*args):\n            return prefix + func(*args)\n        return wrapper\n    return decorator\n\n@add_prefix('Super')\ndef say(name):\n    return name\n\nprint(say('man'))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 113,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The exponentiation operator in Python is right-associative, so 3 ** 2 is calculated first, resulting in 9, and then 2 ** 9 equals 512.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "8a708fcf-dc95-4323-80c9-a1f47b3c844c"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "8a708fcf-dc95-4323-80c9-a1f47b3c844c",
+        "wrong_answers": [
+          "Prints 64",
+          "Prints 256",
+          "Causes a runtime error"
+        ],
+        "output": [
+          "Prints 512"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "print(2 ** 3 ** 2)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 114,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The join method concatenates a list of strings into a single string, separated by the string on which join is called, in this case a space.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "c8261748-a819-43db-9dda-6cc18693f1ea"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "c8261748-a819-43db-9dda-6cc18693f1ea",
+        "wrong_answers": [
+          "Prints 'Pythonisawesome'",
+          "Causes a syntax error",
+          "Prints ['Python', 'is', 'awesome']"
+        ],
+        "output": [
+          "Prints 'Python is awesome'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "my_list = ['Python', 'is', 'awesome']\nprint(' '.join(my_list))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 115,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Accessing a non-existent key in a dictionary causes a KeyError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "f4b4a59b-1831-4cb4-81ff-23b183ef576b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "f4b4a59b-1831-4cb4-81ff-23b183ef576b",
+        "wrong_answers": [
+          "The dictionary is defined incorrectly",
+          "There is a syntax error",
+          "The print statement is incorrect"
+        ],
+        "output": [
+          "It will cause a KeyError at runtime"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "my_dict = {1: 'a', 2: 'b', 3: 'c'}\nprint(my_dict[4])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 116,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Attempting to add an integer and a string in Python results in a TypeError at runtime.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "7fdec9d3-7022-47ee-aa03-5d4600677da7"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "7fdec9d3-7022-47ee-aa03-5d4600677da7",
+        "wrong_answers": [
+          "Yes, it will compile without errors",
+          "No, it will cause a syntax error",
+          "Yes, but it will print nothing"
+        ],
+        "output": [
+          "No, it will cause a runtime error"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 10\ny = '20'\nz = x + y",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 117,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The pop method removes the last item from the list for each iteration, resulting in a reversed list.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "2b9bcd4e-2c49-4812-955b-76dee459072d"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "2b9bcd4e-2c49-4812-955b-76dee459072d",
+        "wrong_answers": [
+          "Prints [0, 1, 2, 3]",
+          "Causes a runtime error",
+          "Prints [3, 2]"
+        ],
+        "output": [
+          "Prints [3, 2, 1, 0]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = [0, 1, 2, 3]\ny = [x.pop() for _ in range(len(x))]\nprint(y)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 120,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The if statement is missing a colon at the end.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "60b70579-b7e7-4f5a-a39b-71b6efa34052"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "60b70579-b7e7-4f5a-a39b-71b6efa34052",
+        "wrong_answers": [
+          "The variable x is not defined",
+          "The print statement is not indented",
+          "Nothing is wrong"
+        ],
+        "output": [
+          "There is a syntax error with the if statement"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "if x < 10\n    print('Less than 10')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 121,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code is correctly handling the ZeroDivisionError with a try-except block.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "756d599f-c434-4131-ab72-4f0479e1526a"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "756d599f-c434-4131-ab72-4f0479e1526a",
+        "wrong_answers": [
+          "No, it will cause a runtime error",
+          "No, it will cause a syntax error",
+          "Yes, but it will print nothing"
+        ],
+        "output": [
+          "Yes, it will compile without errors"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')\nfinally:\n    print('End of try-except')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 122,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The __str__ method is defined to return the string representation of the value attribute, which is '10'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "08cc9881-80ab-4db7-be0c-23c07cfe93ac"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "08cc9881-80ab-4db7-be0c-23c07cfe93ac",
+        "wrong_answers": [
+          "Prints 'MyClass object at 0x...':",
+          "Causes a syntax error",
+          "Prints 'value'"
+        ],
+        "output": [
+          "Prints '10'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "class MyClass:\n    def __init__(self, value):\n        self.value = value\n    def __str__(self):\n        return str(self.value)\n\nobj = MyClass(10)\nprint(obj)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 124,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The append method takes exactly one argument, but two were given.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "20bf1b2b-41dc-4905-acc5-b178cae282f4"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "20bf1b2b-41dc-4905-acc5-b178cae282f4",
+        "wrong_answers": [
+          "The append method does not exist",
+          "The list x is defined incorrectly",
+          "Nothing is wrong"
+        ],
+        "output": [
+          "The append method is used incorrectly"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = [1, 2, 3]\nx.append(4, 5)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 125,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The math.sqrt function cannot handle negative numbers and will raise a ValueError at runtime.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "089299dd-cb9d-4d34-baaf-3b67b7628b8b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "089299dd-cb9d-4d34-baaf-3b67b7628b8b",
+        "wrong_answers": [
+          "Yes, it will compile without errors",
+          "No, it will cause a syntax error",
+          "Yes, but it will print 'nan'"
+        ],
+        "output": [
+          "No, it will cause a runtime error"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "import math\nprint(math.sqrt(-1))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 127,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The insert method adds an element at the specified index, in this case 'orange' at index 1.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "6fb98860-c97e-4f30-8160-5a651aa2d6e1"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "6fb98860-c97e-4f30-8160-5a651aa2d6e1",
+        "wrong_answers": [
+          "Prints ['apple', 'banana', 'orange', 'cherry']",
+          "Causes a syntax error",
+          "Prints ['orange', 'apple', 'banana', 'cherry']"
+        ],
+        "output": [
+          "Prints ['apple', 'orange', 'banana', 'cherry']"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = ['apple', 'banana', 'cherry']\nx.insert(1, 'orange')\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 128,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The print statement inside the if block is not indented, which is a syntax error in Python.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "42ff7639-e49e-4527-bd36-7a940f9d85e4"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "42ff7639-e49e-4527-bd36-7a940f9d85e4",
+        "wrong_answers": [
+          "The print function is used incorrectly",
+          "The if statement is missing a colon",
+          "Nothing is wrong"
+        ],
+        "output": [
+          "The indentation is incorrect"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "print('Hello World')\nif __name__ == '__main__':\nprint('Goodbye World')",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 130,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The variable 'i' is only defined within the scope of the loop, so it cannot be used outside the loop.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "abd58bec-4a79-4671-80c1-ca3802dee1ae"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "abd58bec-4a79-4671-80c1-ca3802dee1ae",
+        "wrong_answers": [
+          "The loop will not run",
+          "The print statement is indented incorrectly",
+          "There is no error in the code"
+        ],
+        "output": [
+          "The variable 'i' is not defined outside the loop"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "for i in range(5):\n    print(i)\nprint('Done' + i)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 131,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The 'global' keyword allows the function to modify the global variable 'x'. The code will compile and run without errors.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "030f653a-34d6-4acd-a67d-a744e6e3aabe"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "030f653a-34d6-4acd-a67d-a744e6e3aabe",
+        "wrong_answers": [
+          "No, 'global' keyword is used incorrectly",
+          "No, 'x' is not defined before the function call",
+          "No, the function does not return any value"
+        ],
+        "output": [
+          "Yes, it will compile without errors"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def my_func():\n    global x\n    x = 10\nmy_func()\nprint(x)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 132,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code defines a decorator that adds a prefix to the return value of the function it decorates. The output will be 'Hello, World'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "5a9c8b4e-14f6-4806-9aad-5a53a2d526a7"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "5a9c8b4e-14f6-4806-9aad-5a53a2d526a7",
+        "wrong_answers": [
+          "Prints 'World'",
+          "Raises a TypeError",
+          "Prints 'Hello, '"
+        ],
+        "output": [
+          "Prints 'Hello, World'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def add_prefix(prefix):\n    def decorator(func):\n        def wrapper(*args):\n            return prefix + func(*args)\n        return wrapper\n    return decorator\n\n@add_prefix('Hello, ')\ndef greet(name):\n    return name\n\nprint(greet('World'))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 133,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The '+' operator concatenates two lists, resulting in a combined list of [1, 2, 3, 4, 5, 6].",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "5624ffd3-2f25-486d-b767-89969880a514"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "5624ffd3-2f25-486d-b767-89969880a514",
+        "wrong_answers": [
+          "Prints [1, 4, 2, 5, 3, 6]",
+          "Raises an IndexError",
+          "Prints [1, 2, 3] [4, 5, 6]"
+        ],
+        "output": [
+          "Prints [1, 2, 3, 4, 5, 6]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "list1 = [1, 2, 3]\nlist2 = [4, 5, 6]\ncombined_list = list1 + list2\nprint(combined_list)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 134,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function calculates the area correctly but does not account for the logical error of a negative radius.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "d5dc5440-74fe-4960-97bf-49d0ef43a6c0"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "d5dc5440-74fe-4960-97bf-49d0ef43a6c0",
+        "wrong_answers": [
+          "The '**' operator is used incorrectly",
+          "The 'return' statement is outside the function",
+          "There is no error in the code"
+        ],
+        "output": [
+          "The function does not handle negative values"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def calculate_area(radius):\n    area = 3.14 * radius ** 2\n    return area\n\nresult = calculate_area(-5)\nprint(result)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 135,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "Accessing an index that is out of range in a list will raise an IndexError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile true or false?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "2189c449-5b04-43eb-834c-13d2ee7c58aa"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "2189c449-5b04-43eb-834c-13d2ee7c58aa",
+        "wrong_answers": [
+          "True, it will compile",
+          "False, it will raise a KeyError",
+          "True, it will compile and print None"
+        ],
+        "output": [
+          "False, it will raise an IndexError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = [0, 1, 2, 3]\ny = x[4]",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 137,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code in the try block executes without errors, so 'Python' is printed. The finally block always executes, printing the final message.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_DATA_TYPES_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "b2de16a7-3a0e-411b-94e8-6fd0a14af1e6"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "b2de16a7-3a0e-411b-94e8-6fd0a14af1e6",
+        "wrong_answers": [
+          "Prints 'An error occurred'",
+          "Prints 'Python'",
+          "Raises an Unhandled Exception"
+        ],
+        "output": [
+          "Prints 'Python' and 'The try-except block is finished'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 'Python'\ntry:\n    print(x)\nexcept:\n    print('An error occurred')\nfinally:\n    print('The try-except block is finished')",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 139,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The ** operator in Python is used for exponentiation. x ** y raises x to the power of y. Therefore, 5 ** 3 equals 125.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "36a1a537-e0d5-4dd1-b480-5796db240483"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "36a1a537-e0d5-4dd1-b480-5796db240483",
+        "wrong_answers": [
+          "Prints the number 15",
+          "Causes a runtime error",
+          "Prints 'x ** y'"
+        ],
+        "output": [
+          "Prints the number 125"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = 5\ny = 3\nprint(x ** y)",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 142,
+    "skills": [],
+    "toughness": "MEDIUM",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function foo is called with the argument a=20 and c=12. Since b is not specified, it uses the default value of 4. The output is '20 4 12'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_MEDIUM",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "bda07d9e-d868-46d6-ac09-abe5bf24f8f1"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "bda07d9e-d868-46d6-ac09-abe5bf24f8f1",
+        "wrong_answers": [
+          "Prints '20 4 6'",
+          "Prints '20 12 6'",
+          "Causes a TypeError"
+        ],
+        "output": [
+          "Prints '20 4 12'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def foo(a, b=4, c=6):\n    print(a, b, c)\n\nfoo(20, c=12)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 144,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code updates the element at index 2 of my_list to 45. The updated list is [0, 1, 45, 3].",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "2b31ef7e-94ff-41fe-a612-228992f6d59a"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "2b31ef7e-94ff-41fe-a612-228992f6d59a",
+        "wrong_answers": [
+          "Prints [0, 1, 2, 3]",
+          "Prints [45, 1, 2, 3]",
+          "Causes an IndexError"
+        ],
+        "output": [
+          "Prints [0, 1, 45, 3]"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "my_list = [0, 1, 2, 3]\nmy_list[2] = 45\nprint(my_list)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 145,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function is supposed to print even numbers, but since the provided list contains no even numbers, the function will print nothing.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "0e258080-2883-40c2-b35e-5d360198bfd5"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "0e258080-2883-40c2-b35e-5d360198bfd5",
+        "wrong_answers": [
+          "The function will print all even numbers",
+          "The function will cause an infinite loop",
+          "The function will raise a ValueError"
+        ],
+        "output": [
+          "The function will print nothing"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def print_even(numbers):\n    for num in numbers:\n        if num % 2 == 0:\n            print(num)\n            break\n\nprint_even([1, 3, 5, 7])",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 146,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code will raise an AttributeError because __value is a private attribute and cannot be accessed directly outside of the class.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "b8b4072b-28a9-493a-9d56-01739fdf3c0b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "b8b4072b-28a9-493a-9d56-01739fdf3c0b",
+        "wrong_answers": [
+          "Yes, it will compile without errors",
+          "Yes, but it will throw a TypeError",
+          "No, because the class is not instantiated correctly"
+        ],
+        "output": [
+          "No, there is an AttributeError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "class MyClass:\n    def __init__(self, value):\n        self.__value = value\n\n    def get_value(self):\n        return self.__value\n\nobj = MyClass(10)\nprint(obj.__value)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 147,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function multiply is defined to take two arguments, but it is called with three. This will cause a TypeError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "ab160e0a-ad00-41b1-a39a-1fd2d95da7a3"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "ab160e0a-ad00-41b1-a39a-1fd2d95da7a3",
+        "wrong_answers": [
+          "Prints the number 24",
+          "Prints the number 6",
+          "Prints 'multiply(a, b, c)'"
+        ],
+        "output": [
+          "Causes a TypeError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def multiply(x, y):\n    return x * y\n\na = 2\nb = 3\nc = 4\n\nresult = multiply(a, b, c)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 148,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "In Python, tuples can be concatenated using the + operator. The result is a new tuple containing all the elements of the tuples being joined.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "b17135e7-3c29-4637-b77e-f50fb550f228"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "b17135e7-3c29-4637-b77e-f50fb550f228",
+        "wrong_answers": [
+          "Prints ((1, 2, 3), (4, 5, 6))",
+          "Causes a TypeError",
+          "Prints (4, 5, 6, 1, 2, 3)"
+        ],
+        "output": [
+          "Prints (1, 2, 3, 4, 5, 6)"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "tuple_a = (1, 2, 3)\ntuple_b = (4, 5, 6)\ntuple_c = tuple_a + tuple_b\nprint(tuple_c)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 151,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The function 'my_func' does not take any arguments, but it's called with one argument, which will raise a TypeError.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following Python code compile without errors?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "fb671fa8-69b8-49d6-933f-af58c495063b"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "fb671fa8-69b8-49d6-933f-af58c495063b",
+        "wrong_answers": [
+          "Yes, it will compile without errors",
+          "No, it will raise a SyntaxError",
+          "No, it will raise an ImportError"
+        ],
+        "output": [
+          "No, it will raise a TypeError"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "def my_func():\n    return 'Hello'\n\nprint(my_func(5))",
+        "default_code": true
+      }
+    ]
+  },
+
+  {
+    "question_key": 154,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The list is reversed using slicing [::-1] and then joined into a string with spaces.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "f30a17f1-e522-4426-ba77-dd26b6769f39"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "f30a17f1-e522-4426-ba77-dd26b6769f39",
+        "wrong_answers": [
+          "Prints 'Python coding is fun'",
+          "Prints 'fun Python coding is'",
+          "Causes an IndexError"
+        ],
+        "output": [
+          "Prints 'fun is coding Python'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "x = ['Python', 'coding', 'is', 'fun']\nprint(' '.join(x[::-1]))",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 155,
+    "skills": [],
+    "toughness": "HARD",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code correctly defines a class with an __init__ method and a __str__ method for string representation.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong with the provided Python code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_PYTHON",
+      "SUB_TOPIC_PYTHON_LOOPS_CODING_ANALYSIS",
+      "DIFFICULTY_HARD",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "89ca5be5-7eb6-4e07-b802-ce7dd4e999fc"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "89ca5be5-7eb6-4e07-b802-ce7dd4e999fc",
+        "wrong_answers": [
+          "The __str__ method is not defined correctly",
+          "The object instantiation is incorrect",
+          "The __init__ method should not take any arguments"
+        ],
+        "output": [
+          "There is no error in the code"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "language": "PYTHON",
+        "code_data": "class MyClass:\n    def __init__(self, value):\n        self.value = value\n\n    def __str__(self):\n        return str(self.value)\n\nobj = MyClass(10)\nprint(obj)class MyClass:\n    def __init__(self, value):\n        self.value = value\n\n    def __str__(self):\n        return str(self.value)\n\nobj = MyClass(10)\nprint(obj)",
+        "default_code": true
+      }
+    ]
+  }
+]

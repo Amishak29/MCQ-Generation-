@@ -4,10 +4,11 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const parent_json_file_name = process.env.PARENT_JSON_FILE_NAME;
-const prompts_file_name = `${parent_json_file_name}_prompts.json`;
-const questions_prompts_path = `./prompts_json/${prompts_file_name}`;
-const questions_response_path = `./responses_json/${parent_json_file_name}_responses.json`;
-const api_responses_path = "./api_responses.json";
+const prompts_file_name = parent_json_file_name + "_prompts.json";
+const questions_prompts_path = "./mcqContent/prompts_json/" + prompts_file_name;
+const questions_response_path =
+  "./mcqContent/responses_json/" + parent_json_file_name + "_responses.json";
+const api_responses_path = "./mcqContent/api_responses.json";
 
 fs.writeFile(questions_response_path, "[]", "utf8", (err) => {
   if (err) {
@@ -16,10 +17,12 @@ fs.writeFile(questions_response_path, "[]", "utf8", (err) => {
   }
 });
 
+
 const client = new OpenAIClient(
-  process.env.AZURE_OPENAI_ENDPOINT,
-  new AzureKeyCredential(process.env.AZURE_API_KEY)
+  process.env.AZURE_OPENAI_ENDPOINT, // Your Azure OpenAI endpoint
+  new AzureKeyCredential(process.env.AZURE_API_KEY) // Your Azure OpenAI API key
 );
+
 
 const fileLocks = {};
 

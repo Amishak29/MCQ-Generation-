@@ -1,3 +1,4 @@
+
 import fs from "fs";
 import { v4 } from "uuid";
 import { google } from "googleapis";
@@ -7,8 +8,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const parent_json_file_name = process.env.PARENT_JSON_FILE_NAME;
-const questions_response_path = `./responses_json/${parent_json_file_name}_responses.json`;
-const final_responses_path = `./final_responses/${parent_json_file_name}_final_responses.json`;
+const questions_response_path = "./mcqContent/responses_json/" + parent_json_file_name + "_responses.json";
+const final_responses_path = "./mcqContent/final_responses/" + parent_json_file_name + "_final_responses.json";
 const GOOGLE_SHEET_ID = process.env.GOOGLE_SHEET_ID;
 const GOOGLE_KEYFILE_PATH = process.env.GOOGLE_KEYFILE_PATH;
 
@@ -139,7 +140,6 @@ const extractQuestionsData = (prompt_responses) => {
   }catch{
     console.log(prompt_response)
   }
-
   });
   console.log("\nWriting into file\n");
   const jsonData = JSON.stringify(final_json_sheet);
@@ -234,3 +234,4 @@ async function start() {
   }
 }
 start();
+

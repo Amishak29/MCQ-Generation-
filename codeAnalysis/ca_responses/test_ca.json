@@ -1,0 +1,362 @@
+[
+  {
+    "question_key": 0,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The pre-increment operator increments 'x' before it is used in the expression, so 'x' becomes 11 and 'y' is also 11. The sum of 'x' and 'y' is 22.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following WGE code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_WE",
+      "SUB_TOPIC_WR_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "a1cdb368-20f9-49bb-8beb-6a09006c2114"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "a1cdb368-20f9-49bb-8beb-6a09006c2114",
+        "wrong_answers": [
+          "Prints 20",
+          "Prints 22",
+          "Causes a runtime error"
+        ],
+        "output": [
+          "Prints 21"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "WGE::main() {\n  num x = 10;\n  num y = ++x;\n  print(x + y);\n}",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 1,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "In WGE, you cannot directly concatenate a string with a number without converting the number to a string first.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong in the provided WGE code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_WE",
+      "SUB_TOPIC_WR_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "e9f7c115-d6b7-4d79-8663-ea59e990e7da"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "e9f7c115-d6b7-4d79-8663-ea59e990e7da",
+        "wrong_answers": [
+          "The 'str' keyword is incorrect",
+          "The 'print' function does not exist",
+          "There are no errors in the code"
+        ],
+        "output": [
+          "String concatenation with a number is not allowed"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "WGE::main() {\n  str name = 'Developer';\n  print('Hello, ' + name + 123);\n}",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 2,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code will not compile because division by zero is not allowed and will cause a compile-time error.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following WGE code compile?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_WE",
+      "SUB_TOPIC_WR_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "25a85dda-b23c-43e1-8c1f-8c49334fd52d"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "25a85dda-b23c-43e1-8c1f-8c49334fd52d",
+        "wrong_answers": [
+          "True, it will compile without errors",
+          "False, 'num' is not a valid type",
+          "True, but it will throw a runtime exception"
+        ],
+        "output": [
+          "False, division by zero is not allowed"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "WGE::main() {\n  num a = 5;\n  num b = a / 0;\n  print(b);\n}",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 3,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code sums up the numbers in the list using a for-in loop and prints the total sum, which is 15.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following WGE code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_WE",
+      "SUB_TOPIC_WR_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "fe9286f7-d3b3-4106-8f99-bc6a7e7d50ce"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "fe9286f7-d3b3-4106-8f99-bc6a7e7d50ce",
+        "wrong_answers": [
+          "Prints 10",
+          "Prints a list of numbers",
+          "Causes a compilation error"
+        ],
+        "output": [
+          "Prints 15"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "WGE::main() {\n  list<num> numbers = [1, 2, 3, 4, 5];\n  num sum = 0;\n  for (num n in numbers) {\n    sum += n;\n  }\n  print(sum);\n}",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 4,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "In WGE, functions must be defined before they are used. The 'max' function is defined after the 'main' function, which is incorrect.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong in the provided WGE code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_WE",
+      "SUB_TOPIC_WR_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "d3208a78-3ba7-4c90-b7d6-f7b0f841061c"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "d3208a78-3ba7-4c90-b7d6-f7b0f841061c",
+        "wrong_answers": [
+          "The ternary operator is used incorrectly",
+          "The 'print' function does not exist",
+          "There are no errors in the code"
+        ],
+        "output": [
+          "The 'max' function is not defined before it is used"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "WGE::main() {\n  num result = max(5, 3);\n  print(result);\n}\n\nnum max(num a, num b) {\n  return (a > b) ? a : b;\n}",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 5,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code will compile and run correctly, printing numbers from 0 to 4 in a while loop.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will the following WGE code compile?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_WE",
+      "SUB_TOPIC_WR_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "717ebcaf-2ec2-4228-bd43-06927565312c"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "717ebcaf-2ec2-4228-bd43-06927565312c",
+        "wrong_answers": [
+          "False, the 'while' loop is not supported",
+          "False, 'print' function cannot be used in a loop",
+          "True, but it will result in an infinite loop"
+        ],
+        "output": [
+          "True, it will compile and run correctly"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "WGE::main() {\n  num i = 0;\n  while (i < 5) {\n    print(i);\n    i++;\n  }\n}",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 6,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code prints the value associated with the key '2' in the map, which is the string 'Two'.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following WGE code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_WE",
+      "SUB_TOPIC_WR_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "e46e58f5-2630-4442-9a12-91d7db56ae3d"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "e46e58f5-2630-4442-9a12-91d7db56ae3d",
+        "wrong_answers": [
+          "Prints 'One'",
+          "Prints 'Three'",
+          "Causes a compilation error"
+        ],
+        "output": [
+          "Prints 'Two'"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "WGE::main() {\n  map<num, str> numToWord = {1: 'One', 2: 'Two', 3: 'Three'};\n  print(numToWord[2]);\n}",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 7,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "In WGE, nested functions are not allowed. The 'factorial' function should be defined outside of the 'main' function.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What is wrong in the provided WGE code?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_WE",
+      "SUB_TOPIC_WR_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "aac31b0a-a74d-4a9e-a87c-7da1f2f59fa9"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "aac31b0a-a74d-4a9e-a87c-7da1f2f59fa9",
+        "wrong_answers": [
+          "The recursive function 'factorial' is not defined correctly",
+          "The 'if' condition is incorrect",
+          "There are no errors in the code"
+        ],
+        "output": [
+          "Nested functions are not allowed in WGE"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "WGE::main() {\n  num factorial(num n) {\n    if (n <= 1) return 1;\n    else return n * factorial(n - 1);\n  }\n  print(factorial(5));\n}",
+        "default_code": true
+      }
+    ]
+  }
+]
