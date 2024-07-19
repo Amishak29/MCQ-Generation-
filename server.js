@@ -25,6 +25,10 @@ app.get('/codeAnalysis/code_analysis.html', (req, res) => {
   res.sendFile(path.join(__dirname, 'codeAnalysis', 'code_analysis.html'));
 });
 
+app.get('/mcqContent/mcq.html', (req, res) => {
+  res.sendFile(path.join(__dirname, 'mcqContent', 'mcq.html'));
+});
+
 app.get('/codeAnalysis/download_ca', (req, res) => {
   const file = path.join(__dirname, 'codeAnalysis', 'output_zip_files', 'test.zip');
   res.download(file);

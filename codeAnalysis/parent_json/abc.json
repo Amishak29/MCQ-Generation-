@@ -1,9 +1,9 @@
 [
   {
     "subject": "PYTHON",
-    "no_of_questions": "1",
-    "topic": "LIST",
-    "difficulty_level_tag": "MEDIUM",
+    "no_of_questions": "2",
+    "topic": "awz",
+    "difficulty_level_tag": "EASY",
     "topic_tag": "gvdz",
     "sub_topic_tag": "PYTHON",
     "add to topic tag names": "Fixed Text",

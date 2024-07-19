@@ -1,0 +1,92 @@
+[
+  {
+    "question_key": 0,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code uses the boto3 library to create a resource object for S3 and iterates over all buckets, printing their names. It assumes that AWS credentials are correctly configured in the environment.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "What will be the output of the following code snippet?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_GVDZ",
+      "SUB_TOPIC_PYTHON_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "5f9deedb-241e-4f24-ba8e-7df5d2b955ff"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "5f9deedb-241e-4f24-ba8e-7df5d2b955ff",
+        "wrong_answers": [
+          "Causes a runtime error due to missing AWS credentials",
+          "Prints 's3' repeatedly",
+          "None of the above"
+        ],
+        "output": [
+          "Prints the names of all S3 buckets in the AWS account"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "import boto3\n\ns3 = boto3.resource('s3')\nfor bucket in s3.buckets.all():\n    print(bucket.name)",
+        "default_code": true
+      }
+    ]
+  },
+  {
+    "question_key": 1,
+    "skills": [],
+    "toughness": "EASY",
+    "short_text": "",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "explanation_for_answer": {
+      "content": "The code will compile as it uses the boto3 library to create an EC2 client and calls the 'run_instances' method with valid parameters to launch a new EC2 instance.",
+      "content_type": "MARKDOWN"
+    },
+    "question_text": "Will this code compile?",
+    "multimedia": [],
+    "content_type": "HTML",
+    "tag_names": [
+      "POOL_1",
+      "TOPIC_GVDZ",
+      "SUB_TOPIC_PYTHON_CODING_ANALYSIS",
+      "DIFFICULTY_EASY",
+      "SOURCE_GPT",
+      "IN_OFFLINE_EXAM",
+      "COMPANY_UNKNOWN",
+      "60c2304b-ba0c-4724-96b3-888246e71ba5"
+    ],
+    "input_output": [
+      {
+        "input": "",
+        "question_id": "60c2304b-ba0c-4724-96b3-888246e71ba5",
+        "wrong_answers": [
+          "False, because 'run_instances' method does not exist",
+          "False, because 'ImageId' is not specified correctly",
+          "False, because 'MinCount' and 'MaxCount' are not valid parameters"
+        ],
+        "output": [
+          "True"
+        ]
+      }
+    ],
+    "code_metadata": [
+      {
+        "is_editable": false,
+        "code_data": "import boto3\n\nclient = boto3.client('ec2')\nresponse = client.run_instances(ImageId='ami-0abcdef1234567890', MinCount=1, MaxCount=1)",
+        "default_code": true
+      }
+    ]
+  }
+]
